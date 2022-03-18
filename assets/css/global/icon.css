@@ -9,4 +9,9 @@
     /* gray-400 */
     background: #303036;
 }
-
+.portfolio-icon {
+    border-radius: 24px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--gray-100);
+}
