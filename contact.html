@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- bg gray -->
+      <div class="container-md">
+        <nav class="navbar">
+          <a href="/index.html" class="text-decoration-none">
+            <h1 class="head-md header__logo">Denis</h1>
+          </a>
+          <ul class="navbar--links list-style-none">
+            <li>
+              <a href="#" class="link text-sm">Articles</a>
+            </li>
+            <li>
+              <a href="#" class="link text-sm">Portafolio</a>
+            </li>
+            <li>
+              <a href="#" class="link text-sm">About</a>
+            </li>
+            <li>
+              <a
+                href="./contact.html"
+                type="button"
+                class="button button--primary button--sm text-decoration-none"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main >
+      <section class="section-md ">
+        <div class="container-lg py-2">
+          <div class="contact-header">
+            <h2 class="head-lg semibold contact-title">Contact Me</h2>
+          </div>
+          <div class="container-lg">
+            <p style="color:#17171C; text-align: center">
+              Looking to expand your team? Or do you need a web 
+              developer for a specific project? If I can help you in any way don't
+               hesitate to fill this form.
+            </p>
+          </div>
+          <div class="container-md">
+            <form action="/login" method="post" class="form-contact">
+              <field>
+                <div class="input-label">
+                  <label for="firstname" >FIRST NAME  </label>
+                  <input type="text" name="user" id="firstname" placeholder="John" />
+                </div>
+                <div class="input-label">
+                  <label for="lastname" >LAST NAME  </label>
+                  <input type="text" name="user" id="lastname" placeholder="Doe"/>
+                </div>
+              </field>
+              <field>
+              <div class="input-label">
+                <label for="email" >EMAIL  </label>
+                <input type="text" name="email" id="email" placeholder="john@mail.com"/>
+              </div>
+              <div class="input-label">
+                <label for="company" >COMPANY </label>
+                <input type="text" name="company" id="company" placeholder="Company SA"/>
+              </div>
+            </field>
+            <field>
+              <div class="input-label">
+                <label for="phone" >PHONE  </label>
+                <input type="text" name="phone" id="phone" placeholder="987654321"/>
+              </div>
+              <div class="input-label">
+                <label for="country" >COUNTRY </label>
+                <select name="select">
+                  <option value="value1" selected>Select one option</option>
+                  <option value="value2" >Value 2</option>
+                  <option value="value3">Value 3</option>
+                </select>
+              </div>
+            </field>
+              <div>
+                <label>How can I help you?</label>
+                <div class="checkbox-container">
+                  <input type="checkbox" class="checkbox" name="checkbox-day" value="Friday" /> 
+                  <div class="checkbox-labels">
+                    <label class="checkbox-title">Job Offer</label>
+                    <label class="checkbox-subtitle">If you are looking to expand your team</label>
+                  </div>
+                </div>
+                <div class="checkbox-container">
+                  <input type="checkbox" class="checkbox" name="checkbox-day" value="Friday" /> 
+                  <div class="checkbox-labels">
+                    <label class="checkbox-title">Project Offer</label>
+                    <label class="checkbox-subtitle">If you are looking to expand your team</label>
+                  </div>
+                </div>
+                <div class="checkbox-container">
+                  <input type="checkbox" class="checkbox" name="checkbox-day" value="Friday" /> 
+                  <div class="checkbox-labels">
+                    <label class="checkbox-title">Collaboration</label>
+                    <label class="checkbox-subtitle">If you are looking to expand your team</label>
+                  </div>
+                </div>
+                <div class="checkbox-container">
+                  <input type="checkbox" class="checkbox" name="checkbox-day" value="Friday" /> 
+                  <div class="checkbox-labels">
+                    <label class="checkbox-title">Other</label>
+                  </div>
+                </div>
+              </div>
+              <button>Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+     
+    </main>
+  </body>
+</html>
