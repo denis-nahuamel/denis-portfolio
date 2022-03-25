@@ -1,174 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <!-- bg gray -->
-      <div class="container-md">
-        <nav class="navbar">
-          <a href="/index.html" class="text-decoration-none">
-            <h1 class="head-md header__logo">Denis</h1>
-          </a>
-          <ul class="navbar--links list-style-none">
-            <li>
-              <a href="#" class="link text-sm">Articles</a>
-            </li>
-            <li>
-              <a href="#" class="link text-sm">Portafolio</a>
-            </li>
-            <li>
-              <a href="#" class="link text-sm">About</a>
-            </li>
-            <li>
-              <a
-                href="#"
-                type="button"
-                class="button button--primary button--sm text-decoration-none"
-                >Contact me</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
-    <main >
-      <section class="section-md ">
-        <div class="container-lg py-3">
-          <div class="article--summary__content">
-            <div class="portfolio-skill elements">
-              <div class="portfolio-img">
-                <div class="icon-group">
-                  <span class="portfolio-icon">
-                    <img  src="assets/css/img/console.png">
-                  </span>
-                  <span class="portfolio-icon">
-                  <img  src="assets/css/img/ruby.png">
-                  </span>
-                  <span class="portfolio-icon">
-                    <img  src="assets/css/img/git.png">
-                  </span> 
-                </div>
-                <img src="assets/css/img/arrow.png">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <!-- bg gray -->
+    <div class="container-md">
+      <nav class="navbar">
+        <a href="index.html" class="text-decoration-none">
+          <h1 class="head-md header__logo">Denis</h1>
+        </a>
+        <label for="hamburger_id" class="hamburger">&#9776;</label>
+        <img for="hamburger_id" src="assets/css/img/exit.svg" class="close">
+        <input type="checkbox" id="hamburger_id" />
+        <!-- <img for="hamburger_id" src="assets/css/img/menu.svg" class="hamburger"> -->
+        <ul id="casa" class="navbar--links list-style-none">
+          <li>
+            <a href="article" class="link text-sm">Articles</a>
+          </li>
+          <li>
+            <a href="portfolio.html" class="link text-sm">Portafolio</a>
+          </li>
+          <li>
+            <a href="about.html" class="link text-sm">About</a>
+          </li>
+          <li>
+            <a href="contact.html" type="button"
+              class="button button--primary button--sm text-decoration-none">Contact me</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-md ">
+      <div class="container-lg py-3">
+        <div class="article--summary__content">
+          <div class="portfolio-skill elements">
+            <div class="portfolio-img">
+              <div class="icon-group">
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/console.png">
+                </span>
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/ruby.png">
+                </span>
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/git.png">
+                </span>
               </div>
-              <div class="article-skill-content">
-                <h3 class="head-xs medium my-0.5 portfolio-title">CalenCLI</h3>
-                <p class="text-lg regular my-0.5">
-                  Doloribus dolores nostrum quia qui
-                   natus officia quod et dolorem. Sit repellendus
-                    qui ut at blanditiis et quo et molestiae.
-                </p>
-              </div>  
-              <div>
-                <span class="text-xs keywords">Control Flow</span>
-                <span class="text-xs keywords">Dates</span>
-                <span class="text-xs keywords">Methods</span>
-                <span class="text-xs keywords">Loops</span>
-              </div> 
+              <a href="projects/calencli.html">
+                <img src="assets/css/img/arrow.png">
+              </a>
+              
             </div>
-            <div class="portfolio-skill elements">
-              <div class="portfolio-img">
-                <div class="icon-group">
-                  <span class="portfolio-icon">
-                    <img  src="assets/css/img/console.png">
-                  </span>
-                  <span class="portfolio-icon">
-                  <img  src="assets/css/img/ruby.png">
-                  </span>
-                  <span class="portfolio-icon">
-                    <img  src="assets/css/img/git.png">
-                  </span> 
-                </div>
-                <img src="assets/css/img/arrow.png">
-              </div>
-              <div class="article-skill-content">
-                <h3 class="head-xs medium my-0.5 portfolio-title">Pokemon Ruby</h3>
-                <p class="text-lg regular my-0.5">
-                  Doloribus dolores nostrum quia qui
-                   natus officia quod et dolorem. Sit repellendus
-                    qui ut at blanditiis et quo et molestiae.
-                </p>
-              </div>  
-              <div>
-                <span class="text-xs keywords">Classes</span>
-                <span class="text-xs keywords">Modules</span>
-                <span class="text-xs keywords">Inheritance</span>
-              </div> 
+            <div class="article-skill-content">
+              <h3 class="head-xs medium my-0.5 portfolio-title">CalenCLI</h3>
+              <p class="text-lg regular my-0.5">
+                This application allows you to create, modify, list, show and delete events, which can be seen per week.
+              </p>
             </div>
-            <div class="portfolio-skill elements">
-              <div class="portfolio-img">
-                <div class="icon-group">
-                  <span class="portfolio-icon">
-                    <img  src="assets/css/img/console.png">
-                  </span>
-                  <span class="portfolio-icon">
-                  <img  src="assets/css/img/ruby.png">
-                  </span>
-                  <span class="portfolio-icon">
-                    <img  src="assets/css/img/git.png">
-                  </span> 
-                </div>
-                <img src="assets/css/img/arrow.png">
-              </div>
-              <div class="article-skill-content">
-                <h3 class="head-xs medium my-0.5 portfolio-title">CLIn Boards</h3>
-                <p class="text-lg regular my-0.5">
-                  Doloribus dolores nostrum quia qui
-                   natus officia quod et dolorem. Sit repellendus
-                    qui ut at blanditiis et quo et molestiae.
-                </p>
-              </div>  
-              <div>
-                <span class="text-xs keywords">FIle Manipulation</span>
-                <span class="text-xs keywords">Classes</span>
-                <span class="text-xs keywords">JSON</span>
-              </div> 
-            </div>
-            <div class="portfolio-skill elements">
-              <div class="portfolio-img">
-                <div class="icon-group">
-                  <span class="portfolio-icon">
-                    <img  src="assets/css/img/console.png">
-                  </span>
-                  <span class="portfolio-icon">
-                  <img  src="assets/css/img/ruby.png">
-                  </span>
-                  <span class="portfolio-icon">
-                    <img  src="assets/css/img/git.png">
-                  </span> 
-                </div>
-                <img src="assets/css/img/arrow.png">
-              </div>
-              <div class="article-skill-content">
-                <h3 class="head-xs medium my-0.5 portfolio-title">Expensable CLI</h3>
-                <p class="text-lg regular my-0.5">
-                  Doloribus dolores nostrum quia qui
-                   natus officia quod et dolorem. Sit repellendus
-                    qui ut at blanditiis et quo et molestiae.
-                </p>
-              </div>  
-              <div>
-                <span class="text-xs keywords">HTTP Requests</span>
-                <span class="text-xs keywords">Classes</span>
-                <span class="text-xs keywords">Modules</span>
-              </div> 
+            <div>
+              <span class="text-xs keywords">Control Flow</span>
+              <span class="text-xs keywords">Dates</span>
+              <span class="text-xs keywords">Methods</span>
+              <span class="text-xs keywords">Loops</span>
             </div>
           </div>
+          <div class="portfolio-skill elements">
+            <div class="portfolio-img">
+              <div class="icon-group">
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/console.png">
+                </span>
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/ruby.png">
+                </span>
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/git.png">
+                </span>
+              </div>
+              <a href="projects/pokemon-ruby.html">
+                <img src="assets/css/img/arrow.png">
+              </a>
+            </div>
+            <div class="article-skill-content">
+              <h3 class="head-xs medium my-0.5 portfolio-title">Pokemon Ruby</h3>
+              <p class="text-lg regular my-0.5">
+                This project consists to build a very close recreation of the classic Pokemon game. You will be able to
+                select one pokemon at the beginning of the game. Then you can train your pokemon in a battle with other
+                random trainers. You will be able to see your pokemon stats to check your progress. When you feel ready,
+                you will be able to challenge Gym Leader Brock. If you defeat Brock you won the game
+              </p>
+            </div>
+            <div>
+              <span class="text-xs keywords">Classes</span>
+              <span class="text-xs keywords">Modules</span>
+              <span class="text-xs keywords">Inheritance</span>
+            </div>
+          </div>
+          <div class="portfolio-skill elements">
+            <div class="portfolio-img">
+              <div class="icon-group">
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/console.png">
+                </span>
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/ruby.png">
+                </span>
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/git.png">
+                </span>
+              </div>
+              <a href="projects/pokemon-ruby.html">
+                <img src="assets/css/img/arrow.png">
+              </a>
+            </div>
+            <div class="article-skill-content">
+              <h3 class="head-xs medium my-0.5 portfolio-title">CLIn Boards</h3>
+              <p class="text-lg regular my-0.5">
+                With CLIn Boards you can create as many Boards as you like. Each board can have as many lists and each
+                list as many cards as you want. Your data is stored locally so don't worry about losing any board
+                update.
+              </p>
+            </div>
+            <div>
+              <span class="text-xs keywords">FIle Manipulation</span>
+              <span class="text-xs keywords">Classes</span>
+              <span class="text-xs keywords">JSON</span>
+            </div>
+          </div>
+          <div class="portfolio-skill elements">
+            <div class="portfolio-img">
+              <div class="icon-group">
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/console.png">
+                </span>
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/ruby.png">
+                </span>
+                <span class="portfolio-icon">
+                  <img src="assets/css/img/git.png">
+                </span>
+              </div>
+              <img src="assets/css/img/arrow.png">
+            </div>
+            <div class="article-skill-content">
+              <h3 class="head-xs medium my-0.5 portfolio-title">Expensable CLI</h3>
+              <p class="text-lg regular my-0.5">
+                Expensable is an expense/income tracker app that exposes an API to allow the developer to freely build
+                their own interfaces to interact with the app data. Every user has their own account protected by email
+                and password. Expensable API gives you an authorization token to validate every request after creating a
+                new user o login back to the application. Each user has many expense/income categories, and each
+                category has many transactions. You can perform CRUD operations over your categories and transactions.
+              </p>
+            </div>
+            <div>
+              <span class="text-xs keywords">HTTP Requests</span>
+              <span class="text-xs keywords">Classes</span>
+              <span class="text-xs keywords">Modules</span>
+            </div>
+          </div>
+        </div>
       </div>
-      </section>
-    </main>
+    </section>
+  </main>
 
-    <footer class="footer">
-      <div class="container-md footer__content">
-        <h2 class="head-xl text-white regular">Can I help you?</h2>
-        <button class="button button--primary">Get in touch!</button>
-      </div>
-    </footer>
-  </body>
+  <footer class="footer">
+    <div class="container-md footer__content">
+      <h2 class="head-xl text-white regular">Can I help you?</h2>
+      <button class="button button--primary">Get in touch!</button>
+    </div>
+  </footer>
+</body>
+
 </html>

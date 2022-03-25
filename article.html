@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header class="header"> <!-- bg gray -->
+    <header class="header">
+      <!-- bg gray -->
       <div class="container-md">
         <nav class="navbar">
-          <a href="/index.html" class="text-decoration-none">
-            <h1 class="head-md header__logo">Paulo Tijero</h1>
+          <a href="index.html" class="text-decoration-none">
+            <h1 class="head-md header__logo">Denis</h1>
           </a>
-          <ul class="navbar--links list-style-none">
+          <label for="hamburger_id" class="hamburger">&#9776;</label>
+          <img for="hamburger_id" src="assets/css/img/exit.svg" class="close">
+          <input type="checkbox" id="hamburger_id" />
+          <!-- <img for="hamburger_id" src="assets/css/img/menu.svg" class="hamburger"> -->
+          <ul id="casa" class="navbar--links list-style-none">
             <li>
-              <a href="#" class="link text-sm">Articles</a>
+              <a href="article" class="link text-sm">Articles</a>
             </li>
             <li>
-              <a href="#" class="link text-sm">Portafolio</a>
+              <a href="portfolio.html" class="link text-sm">Portafolio</a>
             </li>
             <li>
-              <a href="#" class="link text-sm">About</a>
+              <a href="about.html" class="link text-sm">About</a>
             </li>
             <li>
-              <a href="#" type="button" class="button button--primary button--sm text-decoration-none">Contact me</a>
+              <a href="contact.html" type="button"
+                class="button button--primary button--sm text-decoration-none">Contact me</a>
             </li>
           </ul>
         </nav>

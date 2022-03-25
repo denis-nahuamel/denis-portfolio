@@ -36,3 +36,32 @@
     outline: 2px solid var(--pink-800);
     outline-offset: 2px;
   }
+ .hamburger {
+   display: none;
+   font-size: 21.33px;
+   padding: 23.33px 0;
+   user-select: none;
+ }
+ .close {
+   display:none;
+ }
+ /*Hide checkbox*/
+input[type=checkbox]{
+  display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+
+  @media screen and (max-width: 360px) {
+    .navbar--links {
+       display: none;
+       width: 100%;
+       flex-direction: column;
+    }
+    input[type=checkbox]:checked ~ #casa{
+      display: flex;
+      flex-direction: column;
+    }
+    .hamburger {
+      display: block;
+     }
+  }

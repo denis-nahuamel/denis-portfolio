@@ -9,9 +9,18 @@
     /* gray-400 */
     background: #303036;
 }
+.portfolio-icon-primary {
+    border-radius: 24px;
+    height: 40px;
+    width: 40px;
+}
 .portfolio-icon {
     border-radius: 24px;
     height: 40px;
     width: 40px;
     background-color: var(--gray-100);
 }
+.portfolio-icon-primary.pink {
+    background-color: var(--pink-600);
+}
+
